@@ -94,9 +94,60 @@ function Certifications() {
               key={certification.number}
             >
               <div className="certifications__icon">
-                <span>♧</span>
-              </div>
+                <svg
+                  viewBox="0 0 64 64"
+                  width="56"
+                  height="56"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  {/* Certificate paper */}
+                  <rect
+                    x="6"
+                    y="9"
+                    width="40"
+                    height="35"
+                    rx="3"
+                    fill="#EEEBE4"
+                    stroke="#59604A"
+                    strokeWidth="2"
+                  />
 
+                  {/* Certificate text */}
+                  <path
+                    d="M14 19H36M14 26H33M14 33H29"
+                    stroke="#59604A"
+                    strokeWidth="2.5"
+                    strokeLinecap="round"
+                  />
+
+                  {/* Ribbon tails */}
+                  <path
+                    d="M39 39L36 58L44 53L52 58L49 39"
+                    fill="#59604A"
+                  />
+
+                  {/* Award medal */}
+                  <circle
+                    cx="44"
+                    cy="35"
+                    r="11"
+                    fill="#E8B44C"
+                    stroke="#59604A"
+                    strokeWidth="2"
+                  />
+
+                  <circle
+                    cx="44"
+                    cy="35"
+                    r="6"
+                    fill="#F7F6F2"
+                    stroke="#59604A"
+                    strokeWidth="1.5"
+                  />
+                </svg>
+              </div>
               <div className="certifications__meta">
                 <span>{certification.provider}</span>
                 <span>·</span>

@@ -34,8 +34,8 @@ const achievements = [
     number: '04',
     title: 'WPMC 2024 Workshop Winner',
     description:
-      'Won 1st Position in the Tutorial & Danish Industry Challenge on Multi Business Model Innovation (MBMI) organized by CTIF Global Capsule (CGC), Denmark, as part of WPMC 2024 at Sharda University, Greater Noida, demonstrating innovative thinking, business-model development, and problem-solving skills.',
-    button: 'View details',
+      'Won 1st Position in the Tutorial & Danish Industry Challenge on Multi Business Model Innovation (MBMI) organized by CTIF Global Capsule (CGC), Denmark, as part of WPMC 2024 at Sharda University, Greater Noida, India.',
+    button: 'Know more',
     link: 'https://lnkd.in/p/g3aCc3KB',
     image: wpmcImage,
   },

@@ -18,12 +18,6 @@ function DesignerCoder() {
   return (
     <section id="designer-coder" className="designer-coder section">
       <div className="designer-coder__container container">
-        <div className="designer-coder__header">
-          <span className="designer-coder__label">
-            MY APPROACH
-          </span>
-        </div>
-
         <div className="designer-coder__layout">
           {/* Designer */}
           <div className="designer-coder__side designer-coder__side--designer">
